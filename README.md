@@ -19,7 +19,7 @@ PC: Window11
 ### Overall flow chart
 Last semester, I did the CIC decimator & FIR lowpass filter blocks & the breakout board of the digital mic. This semester, I did the integration of the digital mic and the CIC decimatior. I implemented them into the FPGA to actually run the hardware and verify the functionality through the PC output.
 
-![Overall flow chart](figures/flowchart.png.png)
+![Overall flow chart](figures/flowchart.png)
 *Figure 1: overall flow chart*
 
 ![Verification flow chart](figures/verifacation_flow_ethernet.png)
@@ -36,8 +36,8 @@ If you want to do a normal verification flow with ocilloscope, you will need a D
 ![Dataflow](figures/dataflow.png)
 *Figure 1: Verification Dataflow-Ethernet*
 
-![Dataflow_in_vivado](figures/dataflow_invivado.png)
-*Figure 1: Dataflow_in_vivado*
+![Dataflow_in_vivado](figures/dataflow_schematic.png)
+*Figure 1: Dataflow_schematic*
 
 ### Slow down the clk
 Since the digital mic's working frequency is lower than 3MHz, and the min clock frequency from FPGA is 5MHz, we need to slow the clk down to meet the target frequency.
