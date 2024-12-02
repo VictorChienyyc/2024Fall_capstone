@@ -19,7 +19,7 @@ PC: Window11
 ### Overall flow chart
 Last semester, I did the CIC decimator & FIR lowpass filter blocks & the breakout board of the digital mic. This semester, I did the integration of the digital mic and the CIC decimatior. I implemented them into the FPGA to actually run the hardware and verify the functionality through the PC output.
 
-![Overall flow chart](figures/overall_dataflow.png)
+![Overall flow chart](figures/flowchart.png.png)
 *Figure 1: overall flow chart*
 
 ![Verification flow chart](figures/verifacation_flow_ethernet.png)
